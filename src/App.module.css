@@ -89,3 +89,16 @@
         grid-template-columns: 1fr minmax(95px, 120px);
     } 
 }
+
+@media (max-width: 340px) {
+    .app {
+        padding-inline: 10px;
+    }
+    .form {
+        grid-template-columns: 1fr;
+    } 
+    .form button {
+        line-height: 2rem;
+    } 
+
+}
