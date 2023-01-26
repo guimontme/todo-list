@@ -1,0 +1,26 @@
+.header {
+    height: 200px;
+    width: 100%;
+    background: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-bottom: 4rem;
+    box-shadow: 0 10px 10px rgba(13, 13, 13, 0.9);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--blue-300);
+}
+
+.header h1 span {
+    color: var(--purple-300);
+}
+
+.header h1 img {
+    vertical-align: middle;
+}
+
